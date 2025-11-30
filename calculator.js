@@ -28,3 +28,12 @@ addButton.addEventListener('click', function() {
     const result = add(number1, number2);
     resultDisplay.textContent = result;
 });
+
+subtractButton.addEventListener('click', function() {
+    const number1 = parseFloat(document.getElementById('number1').value);
+    const number2 = parseFloat(document.getElementById('number2').value);
+
+    const result = subtract(number1, number2);
+    resultDisplay.textContent = result;
+});
+
